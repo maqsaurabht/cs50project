@@ -1,0 +1,20 @@
+0.  It is the longest word of length=45.
+1.  getrusage() returns the statistics of resource used by 1st parameter. Ex-(in speller.c it gives for RUSAGE_SELF parameter)
+2.  16
+3.  Since if we pass it by value then it take greater size and in c it is better to pass struct as a reference
+4.  (1)main will accept 2 or 3 parameter, in case of 3 parameter argv[1] is for dictionary and argv[2] is for text file which is to be checked.
+    (2)In case of 2 parameters onle text file is entered which is to be spell check.
+    (3)call all the 4 function one by one and calculate the time of their execution
+    (4)In for loop we take character by character and put in the word ,for alphabetical character and for apostrophe. 
+    But if the length of the word is greater than maximum possible then word will be ignored.
+    (5)If word contains digit then also it go to else and ignored
+    (6)and when word is ended the append '\0' to convert it into string
+5.  In case of fscanf we will not be able to check for numeric digit .Since fscanf() reads the whole string      
+6.  const is used to prevent any changes in the word by accidently.
+7.  I will use hashtable .In which table size is 1024 .
+    My hashtable has 2 field one contains the word and the other is pointer pointing to another node.
+8.   first i take tablesize as 26 ,at that time loading time is high since we 
+    have to traverse link list. so i choose 1024 and reduce the loading time upto 15 second
+9.  It is quite fast ,but improvement also possible may be by using trai.
+10.  NO
+
